@@ -1,0 +1,87 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    font-family: sans-serif;
+}
+.navbar-toggler-icon{
+    background-image: url(../images/menu.png);
+}
+
+/* Landing section */
+#home{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/hero_2.jpg);
+    background-size: cover;
+    box-sizing: border-box;
+    height: 90vh;
+   background-attachment: fixed;
+}
+.home-center{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.home-center h1{
+color: white;
+font-weight: bold;
+font-size: 80px;
+}
+.home-center p{
+    color: white;
+    font-weight: 500;
+}
+/* .....Product section.... */
+.hoverImg{   
+    overflow: hidden;
+}
+.hoverImg img{
+    transition: 0.75s;
+
+}
+.hoverImg:hover img{
+    transform: scale(1.2);
+}
+.btn-card{
+    border: 2px solid black;
+    background:#000;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px 15px;
+}
+.btn-card:hover{
+    text-decoration: none;
+    background: none;
+    color:black;
+    transition: 0.50s;
+}
+.btn-view{
+    border: 2px solid black;
+    background:#000;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px 15px;
+}
+.btn-view:hover{
+    text-decoration: none;
+    background: none;
+    color:black;
+    transition: 0.50s;}
+    .card-text{
+        padding-bottom: 10px;
+    }
+
+    /* Testimonial */
+    .carousel-inner{
+        
+    }
+    
+    .carousel-inner .carousel-item img{
+        border-radius: 120px;
+        width: 30%;
+
+    }
+    
